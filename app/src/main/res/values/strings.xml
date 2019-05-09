@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">SupperSystm</string>
+
+    <string-array name="more_items">
+        <item>个人信息</item>
+        <item>修改密码</item>
+        <item>帮助中心</item>
+        <item>关于</item>
+        <item>退出登录</item>
+    </string-array>
+    <string-array name="about_app_items">
+        <item>版本更新</item>
+        <item>功能介绍</item>
+        <item>官网</item>
+        <item>反馈</item>
+    </string-array>
+    <string-array name="add_staff_type">
+        <item>   </item>
+        <item>老板</item>
+        <item>经理</item>
+        <item>营业员</item>
+        <item>普通员工</item>
+    </string-array>
+</resources>

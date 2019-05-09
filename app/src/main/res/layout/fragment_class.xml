@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <!--<include-->
+            <!--android:id="@+id/title"-->
+            <!--layout="@layout/title" />-->
+        <examplet.com.suppersystm.TitleLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <LinearLayout
+            android:focusableInTouchMode="true"
+            android:focusable="true"
+            android:id="@+id/layout_root_fragment_class"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/home_search2"
+            android:orientation="horizontal">
+            <EditText
+                android:id="@+id/edt_search_fragment_class"
+                android:inputType="text"
+                android:imeOptions="actionSearch"
+                android:maxLength="8"
+                android:singleLine="true"
+                android:background="@null"
+                android:hint="请输入搜索的内容"
+                android:layout_marginLeft="40dp"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                />
+            <Button
+                android:id="@+id/bt_search_fragment_class"
+                android:layout_width="80dp"
+                android:layout_height="match_parent"
+                android:background="@null"
+                />
+        </LinearLayout>
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp">
+                <android.support.v4.view.ViewPager
+                    android:background="#0f0"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                </android.support.v4.view.ViewPager>
+                    <RadioGroup
+                        android:layout_gravity="bottom|center"
+                        android:id="@+id/rg_redp_fragent_class"
+                        android:orientation="horizontal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        >
+                        <RadioButton
+                            android:id="@+id/rb_red1"
+                            style="@style/rb_redp"
+                            android:checked="true"
+                            />
+                        <RadioButton
+                            android:id="@+id/rb_red2"
+                            style="@style/rb_redp"
+                            />
+                        <RadioButton
+                            android:id="@+id/rb_red3"
+                            style="@style/rb_redp"
+                            />
+                        <RadioButton
+                            android:id="@+id/rb_red4"
+                            style="@style/rb_redp"
+                            />
+                    </RadioGroup>
+
+            </FrameLayout>
+        <!--<ListView-->
+            <!--android:id="@+id/lv_class_fragment_class"-->
+            <!--android:background="#7a39a0"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="50dp">-->
+
+        <!--</ListView>-->
+
+    </LinearLayout>
+
+</ScrollView>

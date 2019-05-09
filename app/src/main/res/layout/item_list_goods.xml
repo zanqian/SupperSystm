@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:background="@drawable/listview_41bg_normal"
+    android:layout_height="50dp">
+
+    <ImageView
+        android:layout_marginLeft="20dp"
+        android:id="@+id/goods_image"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:background="@drawable/goods_image"
+        />
+
+    <LinearLayout
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="20dp"
+        >
+        <TextView
+            android:id="@+id/goods_name"
+            android:layout_width="wrap_content"
+            android:textColor="@android:color/black"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:text="名称"/>
+        <TextView
+            android:id="@+id/goods_price"
+            android:layout_width="wrap_content"
+            android:textColor="@android:color/black"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:text="价格"/>
+
+    </LinearLayout>
+    <TextView
+        android:id="@+id/goods_stock"
+        android:layout_width="wrap_content"
+        android:textColor="@color/stock_goods"
+        android:layout_height="wrap_content"
+        android:textSize="13sp"
+        android:layout_gravity="center_vertical"
+        android:layout_marginRight="0dp"
+        android:text="库存" />
+
+</LinearLayout>

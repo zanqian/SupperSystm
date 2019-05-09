@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_about_app"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F6F6F6"
+    tools:context="examplet.com.suppersystm.me.AboutApp">
+    <examplet.com.suppersystm.TitleLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="123dp"
+        android:src="@drawable/logo"
+        android:layout_marginTop="30dp"
+        />
+    <ListView
+        android:layout_marginTop="20dp"
+        android:padding="20dp"
+        android:background="#fff"
+        android:id="@+id/about_app_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="#fff"
+        android:dividerHeight="6dp"
+        android:scrollbars="none"
+        />
+
+</LinearLayout>

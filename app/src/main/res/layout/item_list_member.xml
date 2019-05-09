@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:background="@drawable/member_list_item"
+    android:layout_height="100dp">
+
+    <ImageView
+        android:layout_marginLeft="20dp"
+        android:id="@+id/member_head"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_gravity="center"
+        android:background="@drawable/member_header1"
+        />
+
+    <LinearLayout
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:layout_marginLeft="20dp"
+        >
+        <TextView
+            android:id="@+id/member_name"
+            android:layout_width="wrap_content"
+            android:textColor="@android:color/black"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:text="姓名"/>
+        <TextView
+            android:id="@+id/member_idCard"
+            android:layout_width="wrap_content"
+            android:textColor="@android:color/black"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:text="身份证号"/>
+
+    </LinearLayout>
+    <TextView
+        android:id="@+id/member_"
+        android:layout_width="wrap_content"
+        android:textColor="@color/stock_goods"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:layout_gravity="center_vertical"
+        android:layout_marginRight="0dp"
+        android:text="会员" />
+
+</LinearLayout>

@@ -1,0 +1,218 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!--parent="Theme.AppCompat.Light.DarkActionBar"  有标题栏-->
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <!--主页底部的按钮样式-->
+    <style name="rb_tab">
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:button">@null</item>
+    </style>
+    <!--主页底部的按钮样式2-->
+    <style name="rb_tab2">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@drawable/tab_menu_bg</item>
+        <item name="android:layout_marginTop">6dp</item>
+        <item name="android:button">@null</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingTop">1dp</item>
+        <item name="android:textColor">@color/radiobutton_textcolor</item>
+        <item name="android:textSize">13sp</item>
+    </style>
+
+
+    <!--//轮播图片那里的小点-->
+    <style name="rb_redp">
+        <item name="android:clickable">false</item>
+        <item name="android:layout_margin">5dp</item>
+        <item name="android:button">@null</item>
+        <!--<item name="android:background">@drawable/slide_adv_selector</item>-->
+        <item name="android:layout_width">13dp</item>
+        <item name="android:layout_height">13dp</item>
+    </style>
+    <!--我的信息展示信息部分-->
+    <style name="aboutmy_world">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#e4e0e0</item>
+    </style>
+    <!--登录界面输入框样式-->
+    <style name="login_editText_style">
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:maxLength">11</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:background">@null</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:layout_margin">3dp</item>
+    </style>
+    <!--登录界面view-->
+    <style name="login_view_style">
+        <item name="android:layout_width">1dp</item>
+        <item name="android:layout_height">20dp</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:layout_margin">10dp</item>
+        <item name="android:background">#333</item>
+    </style>
+    <!--登录界面输入框图片-->
+    <style name="login_pic_style">
+        <item name="android:layout_width">30dp</item>
+        <item name="android:layout_height">30dp</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:layout_marginLeft">10dp</item>
+
+    </style>
+
+    <!--添加商品信息-->
+    <style name="add_goods_linear">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:layout_marginTop">15dp</item>
+    </style>
+    <style name="add_goods_textView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">#000</item>
+    </style>
+    <style name="add_goods_editText">
+        <item name="android:layout_width">250dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:background">@drawable/add_item_bg</item>
+        <item name="android:padding">10dp</item>
+    </style>
+    //商品详情部分
+    <style name="goods_detail_linear">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:layout_margin">10dp</item>
+    </style>
+    <style name="goods_detail_linear1">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:layout_margin">5dp</item>
+    </style>
+    <style name="goods_detail_textview1">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+    <style name="goods_detail_textview2">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">2</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">#211f1f</item>
+    </style>
+    <style name="goods_detail_textview3">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">3</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">#211f1f</item>
+    </style>
+    //我的
+    <style name="personal_information_linear">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:layout_margin">1dp</item>
+        <item name="android:background">#fff</item>
+    </style>
+    <style name="personal_information_textview1">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:layout_marginLeft">10dp</item>
+    </style>
+    //修改密码
+    <style name="personal_update_password_linear">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">55dp</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:background">#fff</item>
+        <item name="android:layout_marginTop">40dp</item>
+        <item name="android:layout_marginBottom">3dp</item>
+    </style>
+    <style name="personal_update_password_linear1">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">55dp</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:background">#fff</item>
+        <item name="android:layout_marginBottom">3dp</item>
+    </style>
+    <style name="personal_update_password_textview">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="personal_update_password_edittext">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">3</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textColor">#3e2c2c</item>
+        <item name="android:background">@null</item>
+        <item name="android:maxLength">11</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:inputType">textPassword</item>
+    </style>
+    <style name="personal_update_password_btn">
+        <item name="android:layout_width">350dp</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:layout_marginTop">40dp</item>
+        <item name="android:background">@drawable/search_btn</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:stateListAnimator">@null</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+    </style>
+    //员工信息
+    <style name="staff_clear_text">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">2</item>
+        <item name="android:background">@null</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">#211f1f</item>
+    </style>
+    //添加员工
+    <style name="add_staff_editText">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_marginLeft">20dp</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:background">@null</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+    <style name="add_staff_textView">
+        <item name="android:layout_width">80dp</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:gravity">center_vertical|right</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#454343</item>
+
+    </style>
+</resources>

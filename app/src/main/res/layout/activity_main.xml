@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="examplet.com.suppersystm.MainActivity">
+
+
+    <FrameLayout
+        android:layout_above="@+id/rg_tabs_activity_main"
+        android:id="@+id/layout_frag_activity_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        ></FrameLayout>
+    <RadioGroup
+        android:id="@+id/rg_tabs_activity_main"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:background="#ebe9e9"
+        >
+        <RadioButton
+            android:id="@+id/rb_home_activity_main"
+            android:drawableTop="@drawable/home_selector"
+            android:text="首页"
+            style="@style/rb_tab2" />
+        <RadioButton
+            android:id="@+id/rb_news_activity_main"
+            android:drawableTop="@drawable/news_selector"
+            android:text="资讯"
+            style="@style/rb_tab2"
+            />
+        <RadioButton
+            android:drawableTop="@drawable/my_selector"
+            android:id="@+id/rb_more_activity_main"
+            style="@style/rb_tab2"
+            android:text="我的"
+            />
+
+    </RadioGroup>
+
+</RelativeLayout>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_function_intr"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="#f6f6f6"
+    tools:context="examplet.com.suppersystm.me.FunctionIntr">
+    <examplet.com.suppersystm.TitleLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+       android:orientation="vertical"
+        >
+        <TextView
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:text="1.会员，商品，员工，供应商，充值等功能方便员工，管理者进行管理"
+            android:textColor="#3f3b3b"
+            />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="155dp"
+            android:src="@drawable/introduction1"
+            android:layout_gravity="center_horizontal"
+            />
+        <TextView
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:text="2.管理者对会员，商品，员工，供应商等的增加，修改，查询操作"
+            android:textColor="#3b3b3b"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <ImageView
+                android:layout_width="192dp"
+                android:layout_height="155dp"
+                android:src="@drawable/introd2"
+
+                />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="155dp"
+                android:src="@drawable/introd2"
+                />
+        </LinearLayout>
+
+
+    </LinearLayout>
+</LinearLayout>

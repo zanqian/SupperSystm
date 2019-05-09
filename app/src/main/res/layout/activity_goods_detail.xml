@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="#ebebef"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <examplet.com.suppersystm.TitleLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:background="@drawable/detialgoods"
+        android:id="@+id/imageView3" />
+
+    <LinearLayout
+        style="@style/goods_detail_linear"
+        android:layout_marginTop="10dp">
+        <TextView
+            style="@style/goods_detail_textview1"
+            android:text="商品名称:"
+           />
+        <TextView
+            style="@style/goods_detail_textview2"
+            android:id="@+id/name"
+            android:text="name"/>
+    </LinearLayout>
+    <LinearLayout
+        style="@style/goods_detail_linear">
+        <TextView
+            style="@style/goods_detail_textview1"
+            android:text="商品编码:"
+            />
+        <TextView
+            style="@style/goods_detail_textview2"
+            android:id="@+id/code"
+            android:text="code"/>
+    </LinearLayout>
+    <LinearLayout
+        style="@style/goods_detail_linear">
+        <TextView
+            style="@style/goods_detail_textview1"
+            android:text="库         存:"
+            />
+        <TextView
+            style="@style/goods_detail_textview2"
+            android:id="@+id/stock"
+            android:text="stock"/>
+    </LinearLayout>
+    <LinearLayout
+        style="@style/goods_detail_linear">
+        <TextView
+            style="@style/goods_detail_textview1"
+            android:text="售         价:"
+            />
+        <TextView
+            style="@style/goods_detail_textview2"
+            android:id="@+id/price"
+            android:text="price"/>
+    </LinearLayout>
+    <LinearLayout
+        style="@style/goods_detail_linear">
+        <TextView
+            style="@style/goods_detail_textview1"
+            android:text="进         价:"
+            />
+        <TextView
+            style="@style/goods_detail_textview2"
+            android:id="@+id/bid"
+            android:text="bid"/>
+    </LinearLayout>
+    <LinearLayout
+        style="@style/goods_detail_linear">
+        <TextView
+            style="@style/goods_detail_textview1"
+            android:text="货架编号:"
+            />
+        <TextView
+            style="@style/goods_detail_textview2"
+            android:id="@+id/supplierId"
+            android:text="supplierId"/>
+    </LinearLayout>
+    <LinearLayout
+        style="@style/goods_detail_linear">
+        <TextView
+            style="@style/goods_detail_textview1"
+            android:text="供应商号:"
+            />
+        <TextView
+            style="@style/goods_detail_textview2"
+            android:id="@+id/shelfId"
+            android:text="shelfId"/>
+    </LinearLayout>
+</LinearLayout>

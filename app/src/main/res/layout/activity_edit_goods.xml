@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/activity_edit_goods"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#f9f9fb"
+        tools:context=".goods.AddGoods">
+        <examplet.com.suppersystm.TitleLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <LinearLayout
+            style="@style/add_goods_linear"
+            >
+            <TextView
+                style="@style/add_goods_textView"
+                android:text="商品编码"
+
+                />
+            <TextView
+                style="@style/add_goods_editText"
+                android:id="@+id/edit_goods_code"
+                />
+        </LinearLayout>
+        <LinearLayout
+            style="@style/add_goods_linear"
+            >
+            <TextView
+                style="@style/add_goods_textView"
+                android:text="商品名称"
+                />
+            <examplet.com.suppersystm.manager.ClearEditText
+                style="@style/add_goods_editText"
+                android:id="@+id/edit_goods_name"
+                android:inputType="text"
+                />
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            style="@style/add_goods_linear"
+            >
+            <TextView
+                style="@style/add_goods_textView"
+                android:text="库存(件) "
+                />
+            <examplet.com.suppersystm.manager.ClearEditText
+                style="@style/add_goods_editText"
+                android:id="@+id/edit_goods_stock"
+                android:inputType="number"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/add_goods_linear"
+            >
+            <TextView
+                style="@style/add_goods_textView"
+                android:text="售      价  "
+                />
+            <examplet.com.suppersystm.manager.ClearEditText
+                style="@style/add_goods_editText"
+                android:id="@+id/edit_goods_price"
+                android:inputType="numberDecimal"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textSize="16sp"
+                android:layout_marginLeft="5dp"
+                android:gravity="center_vertical"
+                android:text="元"
+                />
+        </LinearLayout>
+        <LinearLayout
+            style="@style/add_goods_linear"
+            >
+            <TextView
+                style="@style/add_goods_textView"
+                android:text="进      价  "
+                />
+
+            <examplet.com.suppersystm.manager.ClearEditText
+                style="@style/add_goods_editText"
+                android:id="@+id/edit_goods_bid"
+                android:inputType="numberDecimal"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textSize="16sp"
+                android:layout_marginLeft="5dp"
+                android:gravity="center_vertical"
+                android:text="元"
+                />
+        </LinearLayout>
+        <LinearLayout
+            style="@style/add_goods_linear"
+            >
+            <TextView
+                style="@style/add_goods_textView"
+                android:text="货架编号"
+
+                />
+            <examplet.com.suppersystm.manager.ClearEditText
+                style="@style/add_goods_editText"
+                android:id="@+id/edit_goods_shelfId"
+                android:inputType="number"
+                />
+        </LinearLayout>
+        <LinearLayout
+            style="@style/add_goods_linear"
+            >
+            <TextView
+                style="@style/add_goods_textView"
+                android:text="供应商编号"
+
+                />
+            <examplet.com.suppersystm.manager.ClearEditText
+
+                android:id="@+id/edit_goods_supplierId"
+                android:inputType="number"
+                android:layout_width="235dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:singleLine="true"
+                android:background="@drawable/add_item_bg"
+                android:padding="10dp"
+                />
+        </LinearLayout>
+
+
+            <Button
+                android:id="@+id/edit_goods_save"
+                android:layout_width="300dp"
+                android:layout_height="45dp"
+                android:background="@drawable/add_goods_save"
+                android:text="修              改"
+                android:textSize="18sp"
+                android:layout_gravity="center"
+                android:layout_margin="60dp"
+                />
+            <!--<Button-->
+                <!--android:id="@+id/edit_goods_cancel"-->
+                <!--android:layout_weight="1"-->
+                <!--android:layout_width="0dp"-->
+                <!--android:textColor="#fff"-->
+                <!--android:layout_height="45dp"-->
+                <!--android:background="@drawable/add_goods_cancel"-->
+                <!--android:text="清空"-->
+                <!--/>-->
+
+    </LinearLayout>
+</ScrollView>
