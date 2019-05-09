@@ -7,4 +7,5 @@
     <color name="menu_deal_text_true">#e8874f</color>
     <color name="munu_deal_text_false">#262a29</color>
     <color name="stock_goods">#a2a0a0</color>
+    <color name="zanqian">#fff</color>
 </resources>
