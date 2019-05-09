@@ -24,7 +24,7 @@ import examplet.com.suppersystm.fragment.MoreFragment;
 import examplet.com.suppersystm.http.NetWorkStateReceiver;
 import examplet.com.suppersystm.manager.BaseActivity;
 
-//主要代码
+//主要代码 超市管理APP
 public class MainActivity extends BaseActivity{
     private SharedPreferences pref;
     private Button mButtonEdit;
